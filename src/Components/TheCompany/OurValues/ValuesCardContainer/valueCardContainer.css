@@ -1,0 +1,10 @@
+.valuesCardContainer {
+	width: 100%;
+	padding: 40px 0px 40px 40px;
+	background-color: blue;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: flex-start;
+}
