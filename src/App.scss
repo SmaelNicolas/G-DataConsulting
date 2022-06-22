@@ -1,3 +1,5 @@
+@import '../src/styles/variables.scss';
+@import '../src/Components/Navbar.scss';
 .appContainer {
 	/* Para evitar el scroll horizontal cuando hay una barra de desplazamiento en Y */
 	/* Componentes Hijos de appContainer con width: 100% van a ocupar toda la pantalla excepto la barra de scroll en Y */
