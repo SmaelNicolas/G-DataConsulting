@@ -1,0 +1,26 @@
+.cardService {
+	width: 250px;
+	height: 250px;
+	margin: 30px;
+	border: 1px solid purple;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.cardService--title {
+	width: 100%;
+	text-align: center;
+}
+
+.cardService--img {
+	width: max-content;
+	height: 50px;
+	background-color: green;
+}
+
+.cardService--text {
+	width: 80%;
+	text-align: center;
+}
