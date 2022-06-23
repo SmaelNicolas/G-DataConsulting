@@ -4,3 +4,23 @@
 	width: calc(100vw - (100vw - 100%));
 	min-height: 100vh;
 }
+
+.sectionContainer {
+	width: 100%;
+	min-height: 400px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.cardsContainer {
+	width: 100%;
+	min-height: 400px;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	padding: 30px;
+}
