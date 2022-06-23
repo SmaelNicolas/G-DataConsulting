@@ -5,7 +5,7 @@ import "./aboutUs.css";
 
 export const AboutUs = () => {
 	return (
-		<div className='sectionContainer'>
+		<div className='sectionContainer' id='aboutUs'>
 			<Title text={"¿Quienes Somos?"} />
 			<div className='aboutUs--textContainer'>
 				Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore

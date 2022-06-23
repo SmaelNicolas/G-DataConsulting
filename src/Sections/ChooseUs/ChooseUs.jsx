@@ -6,7 +6,7 @@ import "./chooseUs.css";
 
 export const ChooseUs = () => {
 	return (
-		<div className='sectionContainer'>
+		<div className='sectionContainer' id='ourClients'>
 			<Title text={"quienes nos eligen"} />
 			<div className='cardsContainer'>
 				<CardChooseUs img='https://cms-assets.tutsplus.com/cdn-cgi/image/width=850/uploads/users/151/posts/33040/image/chanel-logo.jpg' />

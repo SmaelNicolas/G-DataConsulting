@@ -6,7 +6,7 @@ import "./ourServices.css";
 
 export const OurServices = () => {
 	return (
-		<div className='sectionContainer'>
+		<div className='sectionContainer' id='ourServices'>
 			<Title text={"nuestros servicios"} />
 			<div className='cardsContainer'>
 				<CardServices />
