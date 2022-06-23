@@ -1,0 +1,9 @@
+.cardValues {
+	width: 150px;
+	height: 150px;
+	margin: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 2px solid brown;
+}
