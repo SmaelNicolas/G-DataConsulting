@@ -1,5 +1,4 @@
-import {Container, Nav, Navbar, NavDropdown} from 'react-bootstrap';
-import { Galery } from './Galery';
+import {Container, Nav, Navbar } from 'react-bootstrap';
 
 
 export const NavBar = () => {
@@ -21,8 +20,6 @@ export const NavBar = () => {
             </Container>
             </Navbar>
 
-            <h5>Galeria de trabajos</h5>
-            <Galery/>
         </>
     )
 }

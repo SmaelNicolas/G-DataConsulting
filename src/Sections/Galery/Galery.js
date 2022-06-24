@@ -1,20 +1,20 @@
-import React, { useRef, useState } from "react";
-// Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
-
 import "./Galery.scss";
 
-// import required modules
 import { EffectCoverflow, Pagination } from "swiper";
+import { Title } from "../../Components/Title/Title";
 
 export const Galery = () =>{
   return (
     <>
+    
+      <Title text={"Galeria de trabajos"} />
+
       <Swiper
         effect={"coverflow"}
         rewind={true}
@@ -23,7 +23,7 @@ export const Galery = () =>{
         slidesPerView={"auto"}
         loop={true}
         coverflowEffect={{
-          rotate: 50,
+          rotate: 0,
           stretch: 0,
           depth: 100,
           modifier: 1,
@@ -33,32 +33,33 @@ export const Galery = () =>{
         modules={[EffectCoverflow, Pagination]}
         className="mySwiper"
       >
+
         <SwiperSlide>
-          <img src="https://via.placeholder.com/150" />
+          <img src="https://via.placeholder.com/150" alt="img" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://via.placeholder.com/150" />
+          <img src="https://via.placeholder.com/150" alt="img" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://via.placeholder.com/150" />
+          <img src="https://via.placeholder.com/150" alt="img" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://via.placeholder.com/150" />
+          <img src="https://via.placeholder.com/150" alt="img" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://via.placeholder.com/150" />
+          <img src="https://via.placeholder.com/150" alt="img" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://via.placeholder.com/150" />
+          <img src="https://via.placeholder.com/150" alt="img" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://via.placeholder.com/150" />
+          <img src="https://via.placeholder.com/150" alt="img" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://via.placeholder.com/150" />
+          <img src="https://via.placeholder.com/150" alt="img" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://via.placeholder.com/150" />
+          <img src="https://via.placeholder.com/150" alt="img" />
         </SwiperSlide>
       </Swiper>
     </>
