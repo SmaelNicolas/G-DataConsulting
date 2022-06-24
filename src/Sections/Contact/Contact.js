@@ -19,7 +19,7 @@ export const Contact = () => {
                                     <TextField id="name" label="Name" variant="standard" type="text" name="Name" className="form-control py-1 px-2" placeholder="Full Name" required/>
                                 </div>
                                 <div className="col my-1">
-                                    <TextField id="company" label="Company" variant="standard"  type="text" name="Company" className="form-control py-1 px-2" placeholder="Company" required/>
+                                    <TextField id="company" label="Company" variant="standard"  type="text" name="Company" className="form-control py-1 px-2" placeholder="Company"/>
                                 </div>
                                 <div className="col my-1">
                                     <TextField id="pone" label="Phone Number" variant="standard"  type="number" name="Phone" className="form-control py-1 px-2" placeholder="Phone Number" required/>

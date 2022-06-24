@@ -11,7 +11,7 @@ import { Title } from "../../Components/Title/Title";
 
 export const Galery = () =>{
   return (
-    <>
+    <div id="work">
     
       <Title text={"Galeria de trabajos"} />
 
@@ -62,6 +62,6 @@ export const Galery = () =>{
           <img src="https://via.placeholder.com/150" alt="img" />
         </SwiperSlide>
       </Swiper>
-    </>
+    </div>
   );
 }
