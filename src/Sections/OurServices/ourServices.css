@@ -1,3 +1,14 @@
+.ourServices--cardContainer {
+	width: 100%;
+	min-height: 400px;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 30px;
+}
+
 .ourServices--text {
 	max-width: 1000px;
 	padding: 20px 5px;

@@ -1,7 +1,7 @@
 .cardService {
-	width: 300px;
+	width: 320px;
 	height: 232px;
-	margin: 10px;
+	margin: 2vw;
 	border: 2px solid var(--orange);
 	display: flex;
 	flex-direction: column;

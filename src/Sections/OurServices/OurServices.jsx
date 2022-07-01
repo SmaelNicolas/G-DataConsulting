@@ -13,7 +13,7 @@ export const OurServices = () => {
 	return (
 		<div className='sectionContainer darkBlue' id='ourServices'>
 			<Title text={data.ourServices.title} />
-			<div className='cardsContainer'>
+			<div className='ourServices--cardContainer'>
 				<CardServices title={data.ourServices.cards.title1} img={Bi} />
 				<CardServices title={data.ourServices.cards.title2} img={Cap} />
 				<CardServices
