@@ -5,21 +5,30 @@ export const LanguageContext = createContext([]);
 const LanguageContextProvider = ({ children }) => {
 	const [language, setLanguage] = useState("Spanish");
 	const [data, setData] = useState({});
+	const [loading, setLoading] = useState(true);
+
+	window.onload = () => {
+		setTimeout(() => {
+			setLoading(false);
+		}, 1000);
+	};
 
 	useEffect(() => {
-		if (language === "English") {
-			fetch("Data/englishTexts.json")
+		if (language === "Spanish") {
+			fetch("Data/spanishTexts.json")
 				.then((res) => res.json())
 				.then((data) => setData(data));
 		} else {
-			fetch("Data/spanishTexts.json")
+			fetch("Data/englishTexts.json")
 				.then((res) => res.json())
 				.then((data) => setData(data));
 		}
 	}, [language]);
 
 	return (
-		<LanguageContext.Provider value={{ setLanguage, language, data }}>
+		<LanguageContext.Provider
+			value={{ setLanguage, language, data, loading }}
+		>
 			{children}
 		</LanguageContext.Provider>
 	);
