@@ -10,7 +10,7 @@
 		var(--darkBlue) 0%,
 		var(--lighthBlue) 96.35%
 	);
-	border-radius: 20px 0px 0px 0px;
+	border-radius: 20px 20px 0px 0px;
 }
 
 .cardValues--text {
