@@ -7,10 +7,14 @@ const LanguageContextProvider = ({ children }) => {
 	const [data, setData] = useState({});
 	const [loading, setLoading] = useState(true);
 
-	window.onload = () => {
+	const loadText = () => {
 		setTimeout(() => {
 			setLoading(false);
-		}, 1000);
+		}, 2500);
+	};
+
+	window.onload = () => {
+		loadText();
 	};
 
 	useEffect(() => {
