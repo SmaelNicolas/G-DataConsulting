@@ -10,8 +10,8 @@ export const OurValues = () => {
 		<div className='sectionContainer darkBlue' id='ourValues'>
 			<Title text={data.values.title} />
 			<div className='ourValues--card--container'>
-				{data.values.cards.map((item) => (
-					<CardValues text={item} />
+				{data.values.cards.map((item, index) => (
+					<CardValues text={item} key={index} />
 				))}
 			</div>
 		</div>

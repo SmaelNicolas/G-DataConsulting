@@ -1,16 +1,16 @@
-import React from "react";
+import React, { useContext } from "react";
 import "./moreUs.css";
 import Img1 from "../../Assets/Imgs/business.svg";
 import Img2 from "../../Assets/Imgs/Analysis.svg";
+import { LanguageContext } from "../../Context/LanguageContext";
 
 export const MoreUs = () => {
+	const { data } = useContext(LanguageContext);
+
 	return (
 		<div className='sectionContainer darkBlue'>
 			<div className='moreUs--bigTitle--container'>
-				<p className='moreUs--bigTitle--Text'>
-					Libera todo el potencial de tus datos, empuja tu empresa al
-					siguiente nivel
-				</p>
+				<p className='moreUs--bigTitle--Text'>{data.moreUs.title}</p>
 				<div className='moreUs--bigTitle--box'></div>
 			</div>
 			<div className='moreUs--content'>
@@ -21,18 +21,12 @@ export const MoreUs = () => {
 						alt='powerbi'
 					/>
 					<div className='moreUs--content--line--text'>
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-						Nisi, elementum sed ac aenean morbi elementum. Sit nisl
-						felis, turpis turpis. Neque eget pellentesque at eu
-						tempor. Orci non aenean vel amet vitae elit proin non.
+						{data.moreUs.content1}
 					</div>
 				</div>
 				<div className='moreUs--content--line'>
 					<div className='moreUs--content--line--text'>
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-						Nisi, elementum sed ac aenean morbi elementum. Sit nisl
-						felis, turpis turpis. Neque eget pellentesque at eu
-						tempor. Orci non aenean vel amet vitae elit proin non.
+						{data.moreUs.content2}
 					</div>
 					<img
 						className='moreUs--content--line--img'
