@@ -20,3 +20,9 @@
 	font-weight: var(--segoeWeight);
 	font-size: 23px;
 }
+
+@media (max-width: 656px) {
+	.cardValues {
+		margin: 10px 0px;
+	}
+}
