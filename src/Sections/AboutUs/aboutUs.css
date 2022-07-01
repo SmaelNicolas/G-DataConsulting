@@ -1,7 +1,8 @@
 .aboutUs--textContainer {
 	max-width: 1056px;
 	min-height: 185px;
-	padding: 10px 20px;
+	padding: 10px 10px;
+	margin: 10px;
 	color: var(--white);
 	font-family: var(--segoeFont);
 	font-weight: var(--segoeWeight);
@@ -10,5 +11,5 @@
 	text-align: center;
 
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-	border-radius: 0px 0px 20px 0px;
+	border-radius: 0px 0px 20px 20px;
 }
