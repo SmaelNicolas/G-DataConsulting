@@ -8,6 +8,7 @@ import { OurValues } from "./Sections/OurValues/OurValues";
 import { OurServices } from "./Sections/OurServices/OurServices";
 import { Galery } from "./Sections/Galery/Galery";
 import { Footer } from "./Sections/Footer/Footer";
+import { MoreUs } from "./Sections/MoreUs/MoreUs";
 
 function App() {
 	return (
@@ -16,6 +17,7 @@ function App() {
 			<AboutUs />
 			<OurValues />
 			<Galery />
+			<MoreUs />
 			<OurServices />
 			<Contact />
 			<Footer />
