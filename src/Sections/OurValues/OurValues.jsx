@@ -1,21 +1,18 @@
-import React from "react";
+import React, { useContext } from "react";
 import "./ourValues.css";
 import { CardValues } from "../../Components/CardValues/CardValues";
 import { Title } from "../../Components/Title/Title";
+import { LanguageContext } from "../../Context/LanguageContext";
 
 export const OurValues = () => {
+	const { data } = useContext(LanguageContext);
 	return (
 		<div className='sectionContainer darkBlue' id='ourValues'>
-			<Title text={"nuestros valores"} />
+			<Title text={data.values.title} />
 			<div className='ourValues--card--container'>
-				<CardValues text='Foco en el cliente' />
-				<CardValues text='Compromiso' />
-				<CardValues text='Responsabilidad' />
-				<CardValues text='Vocación de servicio' />
-				<CardValues text='Empatía' />
-				<CardValues text='Profesionalismo' />
-				<CardValues text='Trabajo en equipo' />
-				<CardValues text='Pro actividad' />
+				{data.values.cards.map((item) => (
+					<CardValues text={item} />
+				))}
 			</div>
 		</div>
 	);
