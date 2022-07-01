@@ -2,9 +2,10 @@
 	width: 100%;
 	height: auto;
 	padding: 10px;
-	background-color: red;
-	color: black;
-	font-size: 25px;
+	color: var(--white);
+	font-family: var(--robotoFont);
+	font-size: 24px;
 	text-align: center;
 	text-transform: uppercase;
+	font-weight: 300;
 }
