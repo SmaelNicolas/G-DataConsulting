@@ -1,0 +1,9 @@
+.ourServices--text {
+	max-width: 1000px;
+	color: var(--white);
+	font-family: var(--segoeFont);
+	font-weight: var(--segoeWeight);
+	font-size: 23px;
+	line-height: 31px;
+	text-align: center;
+}
