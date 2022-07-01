@@ -20,17 +20,22 @@
 			"Profesionalismo",
 			"Trabajo en equipo",
 			"Pro actividad"
-		],
-		"works": { "title": "galería de trabajos" },
-		"moreUs": {
-			"title": "Libera todo el potencial de tus datos,empuja tu empresa al siguiente nivel",
-			"content1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nisi, elementum sed ac aenean morbi elementum. Sit nisl felis, turpis turpis. Neque eget pellentesque at eu tempor. Orci non aenean vel amet vitae elit proin non.",
-			"content2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nisi, elementum sed ac aenean morbi elementum. Sit nisl felis, turpis turpis. Neque eget pellentesque at eu tempor. Orci non aenean vel amet vitae elit proin non."
+		]
+	},
+	"works": { "title": "galería de trabajos" },
+	"moreUs": {
+		"title": "Libera todo el potencial de tus datos,empuja tu empresa al siguiente nivel",
+		"content1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nisi, elementum sed ac aenean morbi elementum. Sit nisl felis, turpis turpis. Neque eget pellentesque at eu tempor. Orci non aenean vel amet vitae elit proin non.",
+		"content2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nisi, elementum sed ac aenean morbi elementum. Sit nisl felis, turpis turpis. Neque eget pellentesque at eu tempor. Orci non aenean vel amet vitae elit proin non."
+	},
+	"choouseUs": { "title": "quienes nos eligen" },
+	"ourServices": {
+		"title": "nuestros servicios",
+		"cards": {
+			"title1": "desarrollo bi",
+			"title2": "capacitación",
+			"title3": "soporte y mantenimiento"
 		},
-		"choouseUs": { "title": "quienes nos eligen" },
-		"ourServices": {
-			"title": "nuestros servicios",
-			"content": "Nuestros clientes podrán ver sus datos traducidos en información en tiempo real, para facilitar el seguimiento de los principales indicadores del negocio y la toma de decisiones. El proceso es profesional y metodológico para garantizar el cumplimiento dentro de los plazos establecidos y presupuestados. Además,ofrecemos servicio de mantenimiento, soporte y capacitación de uso de herramientas de BI, dando la posibilidad de auto gestión a nuestros clientes."
-		}
+		"content": "Nuestros clientes podrán ver sus datos traducidos en información en tiempo real, para facilitar el seguimiento de los principales indicadores del negocio y la toma de decisiones. El proceso es profesional y metodológico para garantizar el cumplimiento dentro de los plazos establecidos y presupuestados. Además,ofrecemos servicio de mantenimiento, soporte y capacitación de uso de herramientas de BI, dando la posibilidad de auto gestión a nuestros clientes."
 	}
 }
