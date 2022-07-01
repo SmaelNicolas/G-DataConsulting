@@ -9,14 +9,15 @@ import { OurServices } from "./Sections/OurServices/OurServices";
 import { Galery } from "./Sections/Galery/Galery";
 import { Footer } from "./Sections/Footer/Footer";
 import { MoreUs } from "./Sections/MoreUs/MoreUs";
-import { useContext, useEffect } from "react";
+import { useContext } from "react";
 import { LanguageContext } from "./Context/LanguageContext";
+import { Loading } from "./Components/Loading/Loading";
 
 function App() {
 	const { loading } = useContext(LanguageContext);
 
 	return loading ? (
-		<div>LOADING</div>
+		<Loading />
 	) : (
 		<BrowserRouter>
 			<NavBar />
