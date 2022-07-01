@@ -1,9 +1,22 @@
 .cardValues {
-	width: 150px;
-	height: 150px;
-	margin: 30px;
+	width: 300px;
+	height: 80px;
+	margin: 10px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	border: 2px solid brown;
+	background: linear-gradient(
+		180deg,
+		var(--darkBlue) 0%,
+		var(--lighthBlue) 96.35%
+	);
+	border-radius: 20px 0px 0px 0px;
+}
+
+.cardValues--text {
+	margin-top: 15px;
+	color: var(--white);
+	font-family: var(--segoeFont);
+	font-weight: var(--segoeWeight);
+	font-size: 23px;
 }
