@@ -5,16 +5,14 @@ import "./aboutUs.css";
 
 export const AboutUs = () => {
 	return (
-		<div className='sectionContainer' id='aboutUs'>
-			<Title text={"¿Quienes Somos?"} />
+		<div className='sectionContainer darkBlue' id='aboutUs'>
+			<Title text={"¿QUIÉNES SOMOS?"} />
 			<div className='aboutUs--textContainer'>
-				Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
-				cum, debitis libero facilis quam eveniet illo magni dolorum
-				eaque, repellat aut. Accusantium incidunt minima officia ut
-				reprehenderit atque necessitatibus ratione repudiandae voluptas
-				commodi minus illum repellat consequatur sit nam beatae harum
-				libero, perspiciatis possimus, vitae natus consectetur
-				asperiores optio voluptatum!
+				Somos un equipo apasionado por los datos y le ofrecemos un
+				servicio profesional de desarrollo de BI a empresas. Deseamos
+				mostrar y dar la posibilidad a todos los usuarios de conocer el
+				potencial de las herramientas que nos brindan las tecnologías de
+				la información
 			</div>
 		</div>
 	);
