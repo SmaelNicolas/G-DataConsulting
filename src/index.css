@@ -6,13 +6,12 @@
 }
 
 :root {
-	--whiteColor: #fafcfc;
+	--white: #fafcfc;
 	--lighthGreen: #5fcec0;
 	--darkGreen: #009687;
 	--lighthBlue: #1d5484;
 	--darkBlue: #00112e;
-	--titleColor: ;
-	--textColor: ;
+	--orange: #ff9100;
 	--robotoFont: "Roboto";
 	--robotoWeight: 300;
 	--segoeFont: "Segoe";
@@ -30,4 +29,40 @@
 	padding: 0;
 	box-sizing: border-box;
 	scroll-behavior: smooth;
+}
+
+.appContainer {
+	/* Para evitar el scroll horizontal cuando hay una barra de desplazamiento en Y */
+	/* Componentes Hijos de appContainer con width: 100% van a ocupar toda la pantalla excepto la barra de scroll en Y */
+	width: calc(100vw - (100vw - 100%));
+	min-height: 100vh;
+}
+
+.sectionContainer {
+	width: 100%;
+	min-height: 400px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	padding: 50px 0px;
+}
+
+.cardsContainer {
+	width: 100%;
+	min-height: 400px;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	padding: 30px;
+}
+
+.darkBlue {
+	background-color: var(--darkBlue);
+}
+
+.whiteBg {
+	background-color: var(--white);
 }
