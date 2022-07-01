@@ -1,30 +1,4 @@
-@import '../src/styles/variables.scss';
-@import '../src/Components/Navbar.scss';
-@import '../src/Sections/Contact/Contact.scss';
-@import '../src/Sections/Galery/Galery.scss';
-.appContainer {
-	/* Para evitar el scroll horizontal cuando hay una barra de desplazamiento en Y */
-	/* Componentes Hijos de appContainer con width: 100% van a ocupar toda la pantalla excepto la barra de scroll en Y */
-	width: calc(100vw - (100vw - 100%));
-	min-height: 100vh;
-}
-
-.sectionContainer {
-	width: 100%;
-	min-height: 400px;
-	display: flex;
-	flex-direction: column;
-	justify-content: flex-start;
-	align-items: center;
-}
-
-.cardsContainer {
-	width: 100%;
-	min-height: 400px;
-	display: flex;
-	flex-wrap: wrap;
-	flex-direction: row;
-	justify-content: space-around;
-	align-items: center;
-	padding: 30px;
-}
+@import "../src/styles/variables.scss";
+@import "../src/Components/Navbar.scss";
+@import "../src/Sections/Contact/Contact.scss";
+@import "../src/Sections/Galery/Galery.scss";
