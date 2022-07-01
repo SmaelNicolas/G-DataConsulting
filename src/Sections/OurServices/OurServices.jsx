@@ -1,6 +1,9 @@
 import React from "react";
 import { CardServices } from "../../Components/CardServices/CardServices";
 import { Title } from "../../Components/Title/Title";
+import Bi from "../../Assets/Imgs/bi.svg";
+import Cap from "../../Assets/Imgs/capc.svg";
+import Supp from "../../Assets/Imgs/supp.svg";
 
 import "./ourServices.css";
 
@@ -9,9 +12,9 @@ export const OurServices = () => {
 		<div className='sectionContainer darkBlue' id='ourServices'>
 			<Title text={"nuestros servicios"} />
 			<div className='cardsContainer'>
-				<CardServices />
-				<CardServices />
-				<CardServices />
+				<CardServices title='desarrollo bi' img={Bi} />
+				<CardServices title='capacitación' img={Cap} />
+				<CardServices title='soporte y mantenimiento' img={Supp} />
 			</div>
 			<p className='ourServices--text'>
 				Nuestros clientes podrán ver sus datos traducidos en información
