@@ -1,0 +1,10 @@
+.image{
+    max-width: 100%;
+
+    &-logo{
+        position: absolute;
+        left: 43rem;
+        top: 16rem;
+        z-index: 999;
+    }
+}
