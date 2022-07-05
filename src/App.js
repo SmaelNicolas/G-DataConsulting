@@ -21,15 +21,17 @@ function App() {
 		<Loading />
 	) : (
 		<BrowserRouter>
-			<NavBar />
-			<ImageP />
-			<AboutUs />
-			<OurValues />
-			<Galery />
-			<MoreUs />
-			<OurServices />
-			<Contact />
-			<Footer />
+			<div className='appContainer'>
+				<NavBar />
+				<ImageP />
+				<AboutUs />
+				<OurValues />
+				<Galery />
+				<MoreUs />
+				<OurServices />
+				<Contact />
+				<Footer />
+			</div>
 		</BrowserRouter>
 	);
 }
