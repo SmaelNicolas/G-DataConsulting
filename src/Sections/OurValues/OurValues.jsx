@@ -13,7 +13,7 @@ import { IoIosPeople } from "react-icons/io";
 export const OurValues = () => {
 	const { data } = useContext(LanguageContext);
 	return (
-		<div className='sectionContainer darkBlue' id='ourValues'>
+		<div className='sectionContainer' id='ourValues'>
 			<Title text={data.values.title} />
 			<div className='ourValues--card--container'>
 				<CardValues

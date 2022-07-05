@@ -11,7 +11,7 @@ import { LanguageContext } from "../../Context/LanguageContext";
 export const OurServices = () => {
 	const { data } = useContext(LanguageContext);
 	return (
-		<div className='sectionContainer darkBlue' id='ourServices'>
+		<div className='sectionContainer' id='ourServices'>
 			<Title text={data.ourServices.title} />
 			<div className='ourServices--cardContainer'>
 				<CardServices title={data.ourServices.cards.title1} img={Bi} />

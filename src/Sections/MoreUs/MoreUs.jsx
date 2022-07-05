@@ -8,7 +8,7 @@ export const MoreUs = () => {
 	const { data } = useContext(LanguageContext);
 
 	return (
-		<div className='sectionContainer darkBlue'>
+		<div className='sectionContainer'>
 			<div className='moreUs--bigTitle--container'>
 				<p className='moreUs--bigTitle--Text'>{data.moreUs.title}</p>
 				<div className='moreUs--bigTitle--box'></div>
