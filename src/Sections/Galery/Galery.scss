@@ -15,6 +15,10 @@ body {
 }
 
 .swiper {
+  border: 2rem solid white;
+  background-image: url(https://www.pngmart.com/files/1/Vector-Windows-8-Tablet-PNG.png);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
   width: 100%;
   padding-top: 50px;
   padding-bottom: 50px;
@@ -24,8 +28,8 @@ body {
 .swiper-slide {
   background-position: center;
   background-size: cover;
-  width: 300px;
-  height: 300px;
+  width: 500px;
+
 }
 
 .swiper-slide img {

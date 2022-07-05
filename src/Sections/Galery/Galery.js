@@ -1,6 +1,7 @@
 import { Swiper, SwiperSlide } from "swiper/react";
-
-// Import Swiper styles
+import work1 from '../../Assets/Imgs/work1.png';
+import work2 from '../../Assets/Imgs/work2.png';
+import work3 from '../../Assets/Imgs/work3.png';
 import "swiper/css";
 import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
@@ -20,8 +21,13 @@ export const Galery = () =>{
         rewind={true}
         grabCursor={true}
         centeredSlides={true}
+        spaceBetween={200}
         slidesPerView={"auto"}
         loop={true}
+        autoplay= {{
+          delay: 2500,
+          disableOnInteraction: false,
+        }}
         coverflowEffect={{
           rotate: 0,
           stretch: 0,
@@ -29,12 +35,21 @@ export const Galery = () =>{
           modifier: 1,
           slideShadows: true,
         }}
-        pagination={true}
+        pagination={false}
         modules={[EffectCoverflow, Pagination]}
         className="mySwiper"
       >
 
         <SwiperSlide>
+          <img src={work2} alt="img" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={work1} alt="img" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={work3} alt="img" />
+        </SwiperSlide>
+        {/* <SwiperSlide>
           <img src="https://via.placeholder.com/150" alt="img" />
         </SwiperSlide>
         <SwiperSlide>
@@ -51,16 +66,7 @@ export const Galery = () =>{
         </SwiperSlide>
         <SwiperSlide>
           <img src="https://via.placeholder.com/150" alt="img" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src="https://via.placeholder.com/150" alt="img" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src="https://via.placeholder.com/150" alt="img" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src="https://via.placeholder.com/150" alt="img" />
-        </SwiperSlide>
+        </SwiperSlide> */}
       </Swiper>
     </div>
   );
