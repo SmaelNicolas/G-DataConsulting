@@ -1,11 +1,12 @@
 .loadingContainer {
 	width: 100vw;
 	height: 100vh;
-	background-color: var(--darkBlue);
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	background-image: url("../../Assets/Imgs/bg.png");
+	background-repeat: repeat;
 }
 
 .barsContainer {
