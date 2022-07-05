@@ -1,8 +1,8 @@
 .cardValues {
 	width: 300px;
-	height: 80px;
 	margin: 10px;
 	display: flex;
+	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	background: linear-gradient(
@@ -19,4 +19,22 @@
 	font-family: var(--segoeFont);
 	font-weight: var(--segoeWeight);
 	font-size: 23px;
+}
+
+.carValues--icon {
+	font-size: 55px;
+	color: var(--orange);
+}
+
+.orangeLine {
+	width: 90%;
+	height: 10px;
+	background-color: var(--orange);
+	margin-bottom: 5px;
+}
+
+@media (max-width: 656px) {
+	.cardValues {
+		margin: 10px 0px;
+	}
 }

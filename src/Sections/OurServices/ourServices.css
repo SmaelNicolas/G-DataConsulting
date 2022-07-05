@@ -1,13 +1,40 @@
+.ourServices--cardContainer {
+	width: 100%;
+	min-height: 400px;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 30px;
+}
+
+.ourServices--text--container {
+	max-width: 1100px;
+	min-height: 280px;
+	background: linear-gradient(180deg, #00112e 23.96%, #1d5484 100%);
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 0px 0px 20px 0px;
+	padding: 20px 25px;
+	margin: 5px;
+}
+
 .ourServices--text {
 	max-width: 1000px;
-	padding: 20px 5px;
-	margin: 0px 5px;
+	margin-top: 10px;
+
+	display: flex;
+	flex-direction: column;
+
 	color: var(--white);
 	font-family: var(--segoeFont);
 	font-weight: var(--segoeWeight);
-	font-size: calc(15px + 0.5vw);
+	font-size: 23px;
 	line-height: 31px;
 	text-align: center;
-	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-	border-radius: 0px 0px 20px 20px;
+}
+
+.ourServices--text--divider {
+	width: 100%;
+	height: 10px;
 }

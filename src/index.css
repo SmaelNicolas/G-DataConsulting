@@ -36,6 +36,8 @@
 	/* Componentes Hijos de appContainer con width: 100% van a ocupar toda la pantalla excepto la barra de scroll en Y */
 	width: calc(100vw - (100vw - 100%));
 	min-height: 100vh;
+	background-image: url("./Assets/Imgs/bg.png");
+	background-repeat: repeat;
 }
 
 .sectionContainer {
@@ -46,23 +48,4 @@
 	justify-content: flex-start;
 	align-items: center;
 	padding: 50px 0px;
-}
-
-.cardsContainer {
-	width: 70%;
-	min-height: 400px;
-	display: flex;
-	flex-wrap: wrap;
-	flex-direction: row;
-	justify-content: space-around;
-	align-items: center;
-	padding: 30px;
-}
-
-.darkBlue {
-	background-color: var(--darkBlue);
-}
-
-.whiteBg {
-	background-color: var(--white);
 }

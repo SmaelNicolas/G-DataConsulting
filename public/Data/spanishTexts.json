@@ -1,0 +1,44 @@
+{
+	"navbar": {
+		"a1": "nosotros",
+		"a2": "nuestros trabajos",
+		"a3": "servicios",
+		"a4": "contactanos"
+	},
+	"us": {
+		"title": "¿quiénes somos?",
+		"content": "Somos un equipo apasionado por los datos, y ofrecemos un servicio profesional de desarrollo de BI para empresas. Nuestro objetivo es mostrar a las empresas información de valor a cualquier nivel para dar visibilidad, seguimiento y apoyo en la toma de decisiones."
+	},
+	"values": {
+		"title": "nuestros valores",
+		"cards": [
+			"Foco en el cliente",
+			"Compromiso",
+			"Responsabilidad",
+			"Empatía",
+			"Profesionalismo",
+			"Trabajo en equipo"
+		]
+	},
+	"works": { "title": "galería de trabajos" },
+	"moreUs": {
+		"title": "Libera todo el potencial de tus datos,empuja tu empresa al siguiente nivel",
+		"content1": "¿Te animás a convertir los datos en oportuidades?",
+		"content2": "Detectando oportunidades en tu negocio podes crear un ventaja competitiva",
+		"content3": "Tomá las deciciones correctas, en el momento preciso."
+	},
+	"choouseUs": { "title": "quienes nos eligen" },
+	"ourServices": {
+		"title": "nuestros servicios",
+		"cards": {
+			"title1": "desarrollo bi",
+			"title2": "capacitación",
+			"title3": "soporte y mantenimiento"
+		},
+		"content": {
+			"line1": "Nuestros clientes podrán ver sus datos traducidos en información en tiempo real, para facilitar el seguimiento de los principales indicadores del negocio y la toma de decisiones.",
+			"line2": "El proceso es profesional y metodológico para garantizar el cumplimiento dentro de los plazos establecidos y presupuestados. ",
+			"line3": "Además, ofrecemos servicio de mantenimiento, soporte y capacitación de uso de herramientas de BI, dando la posibilidad de auto gestión a nuestros clientes."
+		}
+	}
+}

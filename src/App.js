@@ -9,20 +9,29 @@ import { OurServices } from "./Sections/OurServices/OurServices";
 import { Galery } from "./Sections/Galery/Galery";
 import { Footer } from "./Sections/Footer/Footer";
 import { MoreUs } from "./Sections/MoreUs/MoreUs";
+import { useContext } from "react";
+import { Loading } from "./Components/Loading/Loading";
 import { ImageP } from "./Sections/Image/ImageP";
+import { LanguageContext } from "./Context/LanguageContext";
 
 function App() {
-	return (
+	const { loading } = useContext(LanguageContext);
+
+	return loading ? (
+		<Loading />
+	) : (
 		<BrowserRouter>
-			<NavBar />
-			<ImageP/>
-			<AboutUs />
-			<OurValues />
-			<Galery />
-			<MoreUs />
-			<OurServices />
-			<Contact />
-			<Footer />
+			<div className='appContainer'>
+				<NavBar />
+				<ImageP />
+				<AboutUs />
+				<OurValues />
+				<Galery />
+				<MoreUs />
+				<OurServices />
+				<Contact />
+				<Footer />
+			</div>
 		</BrowserRouter>
 	);
 }

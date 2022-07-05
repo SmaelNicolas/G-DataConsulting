@@ -4,7 +4,7 @@
 	background-color: var(--orange);
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 	display: flex;
-	justify-content: center;
+	justify-content: space-around;
 	align-items: center;
 	margin: 15px 0;
 }
@@ -23,10 +23,9 @@
 	padding-left: 15px;
 }
 
-.moreUs--bigTitle--box {
-	width: 198px;
-	height: 198px;
-	background-color: var(--darkBlue);
+.moreUs--bigTitle--rocket {
+	width: 140px;
+	height: 140px;
 }
 
 .moreUs--content {
@@ -50,20 +49,84 @@
 	min-width: 320px;
 	max-height: 328px;
 	margin: 0 10px;
+	border-radius: 20px;
 }
 
 .moreUs--content--line--text {
 	max-width: 520px;
 	height: 328px;
-	font-family: var(--segoeFont);
-	font-weight: var(--segoeWeight);
+	margin: 0 10px;
+	padding: 30px 35px 0px 35px;
+
+	font-family: var(--robotoFont);
+	font-weight: 700;
 	font-size: 23px;
-	line-height: 31px;
+	line-height: 27px;
+
 	display: flex;
+	flex-direction: column;
+	justify-content: center;
 	align-items: center;
 	text-align: center;
+
 	color: var(--white);
+	letter-spacing: 0.08em;
+
+	background: linear-gradient(180deg, #00112e 23.96%, #1d5484 100%);
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-	border-radius: 0px 0px 20px 20px;
-	margin: 0 10px;
+	border-radius: 20px;
+}
+.moreUs--content--line--text--divider {
+	width: 100%;
+	height: 20px;
+}
+
+@media (max-width: 1200px) {
+	.reverseWrap {
+		flex-wrap: wrap-reverse;
+	}
+	.moreUs--content--line--text {
+		margin: 0;
+	}
+}
+
+@media (max-width: 800px) {
+	.moreUs--bigTitle--container {
+		justify-content: space-between;
+	}
+
+	.moreUs--bigTitle--Text {
+		width: 80%;
+		font-size: 24px;
+		margin: 0;
+	}
+}
+
+@media (max-width: 700px) {
+	.moreUs--content--line--img {
+		margin: 0px;
+		padding: 0px;
+		min-width: 300px;
+	}
+}
+
+@media (max-width: 500px) {
+	.moreUs--bigTitle--container {
+		justify-content: space-between;
+		height: 120px;
+	}
+	.moreUs--bigTitle--Text {
+		font-size: calc(10px + 1vw);
+		text-align: center;
+	}
+
+	.moreUs--content--line--text {
+		font-size: 18px;
+		padding: 20px 25px 0px 25px;
+	}
+
+	.moreUs--bigTitle--rocket {
+		width: 120px;
+		height: 120px;
+	}
 }
