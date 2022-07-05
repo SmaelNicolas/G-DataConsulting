@@ -10,7 +10,11 @@ export const AboutUs = () => {
 	return (
 		<div className='sectionContainer' id='aboutUs'>
 			<Title text={data.us.title} />
-			<div className='aboutUs--textContainer'>{data.us.content}</div>
+			<div className='aboutUs--textContainer'>
+				<div className='aboutUs--textContainer--text'>
+					{data.us.content}
+				</div>
+			</div>
 		</div>
 	);
 };

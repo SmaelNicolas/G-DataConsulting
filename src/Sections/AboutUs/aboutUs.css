@@ -1,15 +1,21 @@
 .aboutUs--textContainer {
-	max-width: 1000px;
+	max-width: 1100px;
 	min-height: 185px;
-	padding: 10px 10px;
-	margin: 10px;
+	padding: 5px 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: linear-gradient(180deg, #00112e 23.96%, #1d5484 100%);
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 0px 0px 20px 0px;
+}
+
+.aboutUs--textContainer--text {
+	max-width: 1000px;
 	color: var(--white);
 	font-family: var(--segoeFont);
 	font-weight: var(--segoeWeight);
 	font-size: 23px;
 	line-height: 40px;
 	text-align: center;
-
-	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-	border-radius: 0px 0px 20px 20px;
 }
