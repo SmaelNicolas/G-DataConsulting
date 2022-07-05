@@ -7,7 +7,7 @@ export const NavBar = () => {
 
     const [colorChange, setColorchange] = useState(false);
     const changeNavbarColor = () =>{
-     if(window.scrollY >= 80){
+     if(window.scrollY >= 650){
        setColorchange(true);
      }
      else{
@@ -29,12 +29,13 @@ export const NavBar = () => {
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
-                <Nav className="me-auto">
-                    <a href="#aboutUs">Nosotros</a>
-                    <a href="#work">Nuestros trabajos</a>
-                    <a href="#ourServices">Servicios</a>
-                    <a href="#contact">Contactanos</a>
-                </Nav>
+                    <Nav className="me-auto">
+                        <a href="#aboutUs">Nosotros</a>
+                        <a href="#work">Nuestros <br/> trabajos</a>
+                        <a href="#ourServices">Servicios</a>
+                        <button className="navbar-contact"><a href="#contact">Contactanos</a></button>
+                    </Nav>
+                        <div className='borde'></div>
                 </Navbar.Collapse>
             </Container>
             </Navbar>

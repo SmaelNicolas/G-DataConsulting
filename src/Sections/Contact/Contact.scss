@@ -11,6 +11,7 @@
         padding: 2rem;
         border-bottom-right-radius: 2rem;
         z-index: 2;
+        background-color: var(--white);
     }
 
     &-img{
@@ -42,7 +43,7 @@
     &-vector{
         max-width: 100%;
         position: absolute;
-        top: 232rem;
+        top: 230rem;
         z-index: 0;
     }
 }

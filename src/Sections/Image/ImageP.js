@@ -1,5 +1,4 @@
-import imagen from '../../Assets/Imgs/imagenprincipal.png';
-import logo from '../../Assets/Imgs/logotransparente.png';
+import imagen from '../../Assets/Imgs/imagenprincipal.svg';
 
 export const ImageP = () =>{
     return(
@@ -9,11 +8,8 @@ export const ImageP = () =>{
 				src={imagen}
 				alt='imagenprincipal'
 			/>
-            <img
-				className='image-logo'
-				src={logo}
-				alt='logo'
-			/>
+			<h1 className='text'>Convertimos datos en <br/> información de valor <br/> para tu negocio. </h1>
+            
         </div>
     )
 }
