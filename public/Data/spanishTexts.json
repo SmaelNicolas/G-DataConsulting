@@ -23,8 +23,9 @@
 	"works": { "title": "galería de trabajos" },
 	"moreUs": {
 		"title": "Libera todo el potencial de tus datos,empuja tu empresa al siguiente nivel",
-		"content1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nisi, elementum sed ac aenean morbi elementum. Sit nisl felis, turpis turpis. Neque eget pellentesque at eu tempor. Orci non aenean vel amet vitae elit proin non.",
-		"content2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nisi, elementum sed ac aenean morbi elementum. Sit nisl felis, turpis turpis. Neque eget pellentesque at eu tempor. Orci non aenean vel amet vitae elit proin non."
+		"content1": "¿Te animás a convertir los datos en oportuidades?",
+		"content2": "Detectando oportunidades en tu negocio podes crear un ventaja competitiva",
+		"content3": "Tomá las deciciones correctas, en el momento preciso."
 	},
 	"choouseUs": { "title": "quienes nos eligen" },
 	"ourServices": {
