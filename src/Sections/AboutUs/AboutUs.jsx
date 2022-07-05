@@ -1,11 +1,12 @@
 import React, { useContext } from "react";
-import { Title } from "../../Components/Title/Title";
 import { LanguageContext } from "../../Context/LanguageContext";
+import { Title } from "../../Components/Title/Title";
 
 import "./aboutUs.css";
 
 export const AboutUs = () => {
 	const { data } = useContext(LanguageContext);
+
 	return (
 		<div className='sectionContainer darkBlue' id='aboutUs'>
 			<Title text={data.us.title} />
