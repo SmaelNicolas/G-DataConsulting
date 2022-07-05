@@ -4,7 +4,7 @@ import "./Assets/Fonts/SegoeSmallLight.ttf";
 
 import "./index.css";
 import App from "./App";
-import LanguageContextProvider from "./Context/LanguageContext";
+import LanguageContextProvider from "./Components/Context/LanguageContext";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(

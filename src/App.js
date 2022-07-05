@@ -1,7 +1,7 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.scss";
 import { BrowserRouter } from "react-router-dom";
-import { NavBar } from "./Components/Navbar";
+import { NavBar } from "./Components/Navbar/Navbar";
 import { Contact } from "./Sections/Contact/Contact";
 import { AboutUs } from "./Sections/AboutUs/AboutUs";
 import { OurValues } from "./Sections/OurValues/OurValues";
@@ -12,6 +12,7 @@ import { MoreUs } from "./Sections/MoreUs/MoreUs";
 import { useContext } from "react";
 import { LanguageContext } from "./Context/LanguageContext";
 import { Loading } from "./Components/Loading/Loading";
+import { ImageP } from "./Sections/Image/ImageP";
 
 function App() {
 	const { loading } = useContext(LanguageContext);
@@ -21,6 +22,7 @@ function App() {
 	) : (
 		<BrowserRouter>
 			<NavBar />
+			<ImageP />
 			<AboutUs />
 			<OurValues />
 			<Galery />

@@ -11,7 +11,7 @@ import { Title } from "../../Components/Title/Title";
 
 export const Galery = () =>{
   return (
-    <div id="work">
+    <div id="work" className="darkBlue">
     
       <Title text={"Galeria de trabajos"} />
 

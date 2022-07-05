@@ -1,16 +1,18 @@
 import { TextField } from "@mui/material"
 import { Button, Form } from "react-bootstrap"
 import { Title } from "../../Components/Title/Title"
+import contact from "../../Assets/Imgs/contact.png"
+import vector from "../../Assets/Imgs/Vector.png"
 
 export const Contact = () => {
 
     return(
-        <div id="contact">
+        <div id="contact" className="darkBlue py-5">
             <Title text={"Contactanos"} />
 
             <div className="contact">
 
-                <div className="contact-form">
+                <div className="contact-form whiteBg">
 
                     <Form target="_blank" action="https://formsubmit.co/aimemelissa1@gmail.com" method="POST" id="form">
                         <div className="form-group">
@@ -34,16 +36,24 @@ export const Contact = () => {
                             <TextField multiline id="text" label="Text" variant="standard" placeholder="Your Message" className="form-control py-1 px-2" name="message" rows={4} required />
                         </div>
 
-                        <Button type="submit" className="btn my-1">Submit Form</Button>
+                        <div className="button-container">
+                            <Button type="submit" className="my-1 contact-button">Submit Form</Button>
+                        </div>
                     </Form>
 
                 </div>
 
                 <div className="contact-img">
-                    <img src="https://via.placeholder.com/150" alt="..." />
+                    <img src={contact} alt="contact" />
                 </div>
                 
             </div>
+
+            <img 
+                className="contact-vector"
+                src={vector} 
+                alt="vector"
+            />
         </div>
     )
 }
