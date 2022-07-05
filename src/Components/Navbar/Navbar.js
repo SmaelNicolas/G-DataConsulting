@@ -27,7 +27,7 @@ export const NavBar = () => {
                         alt='logo'
                     />
                 </Navbar.Brand>
-                <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                <Navbar.Toggle aria-controls="basic-navbar-nav" className='navbar-control' />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto">
                         <a href="#aboutUs">Nosotros</a>
