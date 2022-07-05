@@ -21,7 +21,15 @@ export const OurServices = () => {
 					img={Supp}
 				/>
 			</div>
-			<p className='ourServices--text'>{data.ourServices.content}</p>
+			<div className='ourServices--text--container'>
+				<div className='ourServices--text'>
+					{data.ourServices.content.line1}
+					<div className='ourServices--text--divider'></div>
+					{data.ourServices.content.line2}
+					<div className='ourServices--text--divider'></div>
+					{data.ourServices.content.line3}
+				</div>
+			</div>
 		</div>
 	);
 };
