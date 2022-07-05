@@ -18,21 +18,27 @@ export const OurValues = () => {
 			<div className='ourValues--card--container'>
 				<CardValues
 					iconValue={<MdCenterFocusWeak />}
-					text='Foco en el cliente'
+					text={data.values.cards[0]}
 				/>
-				<CardValues iconValue={<FaHandsHelping />} text='Compromiso' />
+				<CardValues
+					iconValue={<FaHandsHelping />}
+					text={data.values.cards[1]}
+				/>
 				<CardValues
 					iconValue={<GiExtraTime />}
-					text='Responsabilidad'
+					text={data.values.cards[2]}
 				/>
-				<CardValues iconValue={<FaPeopleCarry />} text='Empatía' />
+				<CardValues
+					iconValue={<FaPeopleCarry />}
+					text={data.values.cards[3]}
+				/>
 				<CardValues
 					iconValue={<AiOutlineFileProtect />}
-					text='Profesionalismo'
+					text={data.values.cards[4]}
 				/>
 				<CardValues
 					iconValue={<IoIosPeople />}
-					text='Trabajo en equipo'
+					text={data.values.cards[5]}
 				/>
 			</div>
 		</div>
