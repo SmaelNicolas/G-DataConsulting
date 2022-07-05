@@ -1,10 +1,13 @@
 .image{
     max-width: 100%;
-
-    &-logo{
-        position: absolute;
-        left: 43rem;
-        top: 16rem;
-        z-index: 999;
-    }
+}
+.text{
+    position: absolute;
+    left: 43rem;
+    top: 20rem;
+    z-index: 999;
+    color: var(--white);
+    text-align: end;
+    font-family: 'roboto';
+    font-size: 45px;
 }
