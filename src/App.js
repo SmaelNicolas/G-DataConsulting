@@ -13,6 +13,7 @@ import { useContext } from "react";
 import { Loading } from "./Components/Loading/Loading";
 import { ImageP } from "./Sections/Image/ImageP";
 import { LanguageContext } from "./Context/LanguageContext";
+import { SocialMedia } from "./Components/SocialMedia/SocialMedia";
 
 function App() {
 	const { loading } = useContext(LanguageContext);
@@ -23,6 +24,7 @@ function App() {
 		<BrowserRouter>
 			<div className='appContainer'>
 				<NavBar />
+				<SocialMedia />
 				<ImageP />
 				<AboutUs />
 				<OurValues />

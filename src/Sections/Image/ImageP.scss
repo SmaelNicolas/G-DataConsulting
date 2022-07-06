@@ -3,11 +3,21 @@
 }
 .text{
     position: absolute;
-    left: 43rem;
+    left: 42rem;
+    right: 5rem;
     top: 20rem;
     z-index: 999;
     color: var(--white);
     text-align: end;
     font-family: 'roboto';
     font-size: 45px;
+}
+
+@media only screen and (max-width: 700px){
+    .text{
+        left: 22rem;
+        right: 3rem;
+        top: 9rem; 
+        font-size: 1.3rem;
+    }
 }

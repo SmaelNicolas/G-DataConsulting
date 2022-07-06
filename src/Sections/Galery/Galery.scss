@@ -1,20 +1,9 @@
-#app { height: 100% }
-html,
-body {
-  position: relative;
-  height: 100%;
-}
-
-body {
-  background: #eee;
-  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  color: #000;
-  margin: 0;
-  padding: 0;
-}
-
 .swiper {
+  border-top: 2rem solid white;
+  border-bottom: 2rem solid white;
+  background-image: url(https://www.pngmart.com/files/1/Vector-Windows-8-Tablet-PNG.png);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
   width: 100%;
   padding-top: 50px;
   padding-bottom: 50px;
@@ -24,8 +13,8 @@ body {
 .swiper-slide {
   background-position: center;
   background-size: cover;
-  width: 300px;
-  height: 300px;
+  width: 520px;
+  background-color: transparent;
 }
 
 .swiper-slide img {
