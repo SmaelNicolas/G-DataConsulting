@@ -7,14 +7,20 @@ import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
 import "./Galery.scss";
 
+import { useContext } from "react";
+import { LanguageContext } from "../../Context/LanguageContext";
+
 import { EffectCoverflow, Pagination } from "swiper";
 import { Title } from "../../Components/Title/Title";
 
 export const Galery = () =>{
+
+  const { data } = useContext(LanguageContext);
+
   return (
     <div id="work" className="darkBlue">
     
-      <Title text={"Galeria de trabajos"} />
+      <Title text={data.galery.title} />
 
       <Swiper
         effect={"coverflow"}

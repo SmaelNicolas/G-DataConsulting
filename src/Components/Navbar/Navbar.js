@@ -1,9 +1,12 @@
 import {Container, Nav, Navbar } from 'react-bootstrap';
-import { useState } from 'react';
+import { useState, useContext } from 'react';
 import logo from '../../Assets/Imgs/logotransparente.png';
+import { LanguageContext } from "../../Context/LanguageContext";
 
 
 export const NavBar = () => {
+
+    const { data } = useContext(LanguageContext);
 
     const [colorChange, setColorchange] = useState(false);
     const changeNavbarColor = () =>{
@@ -30,10 +33,10 @@ export const NavBar = () => {
                 <Navbar.Toggle aria-controls="basic-navbar-nav" className='navbar-control' />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto">
-                        <a href="#aboutUs">Nosotros</a>
-                        <a href="#work">Nuestros <br/> trabajos</a>
-                        <a href="#ourServices">Servicios</a>
-                        <button className="navbar-contact"><a href="#contact">Contactanos</a></button>
+                        <a href="#aboutUs">{data.navbar.a1}</a>
+                        <a href="#work">{data.navbar.a2}</a>
+                        <a href="#ourServices">{data.navbar.a3}</a>
+                        <button className="navbar-contact"><a href="#contact">{data.navbar.a4}</a></button>
                     </Nav>
                         <div className='borde'></div>
                 </Navbar.Collapse>
