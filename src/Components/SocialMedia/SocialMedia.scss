@@ -1,0 +1,24 @@
+.links-Fixed{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 75%;
+    left: 1%;
+    z-index: 20000;
+}
+
+#link-Fixed-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(150, 150, 150);
+    background-color: transparent;
+    border: none;
+    margin: .7rem;
+    font-size: 2rem;
+
+    &:hover{
+        color: var(--orange);
+    }
+}
+    
