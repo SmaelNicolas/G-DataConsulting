@@ -1,5 +1,8 @@
+.navbar-config{
+    width: 100%;
+}
 .navbar{
-    max-width: 100%;
+    width: 100%;
     background-color: transparent;
     position: absolute;
 
@@ -12,7 +15,7 @@
 }
 
 .navbar.colorChange{
-    max-width: 100%;
+    width: 100%;
     background-color: var(--darkBlue); 
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);  
     position: fixed;
@@ -82,6 +85,9 @@ a{
 }
 
 @media only screen and (max-width: 700px){
+    .navbar-config{
+        width: 90%;
+    }
     .navbar-control{
         color: var(--white);
         background-color: var(--orange);

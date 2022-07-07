@@ -20,7 +20,7 @@ export const Galery = () =>{
   return (
     <div id="work" className="darkBlue">
     
-      <Title text={data.galery.title} />
+      <Title text={data.works.title} />
 
       <Swiper
         effect={"coverflow"}

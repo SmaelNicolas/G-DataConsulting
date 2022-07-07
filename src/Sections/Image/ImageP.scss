@@ -1,5 +1,5 @@
 .image{
-    max-width: 100%;
+    width: 100%;
 }
 .text{
     position: absolute;
@@ -19,5 +19,13 @@
         right: 3rem;
         top: 9rem; 
         font-size: 1.3rem;
+    }
+}
+@media only screen and (max-width: 600px){
+    .text{
+        left: 18rem;
+        right: 3rem;
+        top: 7rem; 
+        font-size: 1rem;
     }
 }

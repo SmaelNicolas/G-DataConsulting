@@ -23,7 +23,7 @@
 	},
 	"works": { "title": "galería de trabajos" },
 	"moreUs": {
-		"title": "Libera todo el potencial de tus datos,empuja tu empresa al siguiente nivel",
+		"title": "Libera todo el potencial de tus datos, empuja tu empresa al siguiente nivel",
 		"content1": "¿Te animás a convertir los datos en oportunidades?",
 		"content2": "Detectando oportunidades en tu negocio podes crear un ventaja competitiva",
 		"content3": "Tomá las decisiones correctas, en el momento preciso."
@@ -42,7 +42,6 @@
 			"line3": "Además, ofrecemos servicio de mantenimiento, soporte y capacitación de uso de herramientas de BI, dando la posibilidad de auto gestión a nuestros clientes."
 		}
 	},
-	"galery": { "title": "Galeria de trabajos"},
 	"contact":{
 		"title": "contactanos",
 		"txt1": "Nombre",

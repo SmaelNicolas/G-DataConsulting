@@ -1,0 +1,54 @@
+{
+	"navbar": {
+		"a1": "About Us",
+		"a2": "Our Proyects",
+		"a3": "Services",
+		"a4": "Contact Us"
+	},
+	"image": {"title": "We turn data into valuable information for your business."},
+	"us": {
+		"title": "Who are we?",
+		"content": "We are a team passionate about data, and we offer a professional BI development service for companies. Our goal is to show companies valuable information at any level to provide visibility, follow-up and support in decision-making."
+	},
+	"values": {
+		"title": "Our values",
+		"cards": [
+			"Customer Focus",
+			"Commitment",
+			"Responsibility",
+			"Empathy",
+			"Professionalism",
+			"Teamwork"
+		]
+	},
+	"works": { "title": "galery" },
+	"moreUs": {
+		"title": "Release the full potential of your data, push your business to the next level",
+		"content1": "Do you dare to turn data into opportunities?",
+		"content2": "Detecting opportunities in your business you can create a competitive advantage",
+		"content3": "Make the right decisions, at the right time."
+	},
+	"choouseUs": { "title": "who choose us" },
+	"ourServices": {
+		"title": "Our services",
+		"cards": {
+			"title1": "bi development",
+			"title2": "training",
+			"title3": "support and maintenance"
+		},
+		"content": {
+			"line1": "Our clients will be able to see their data translated into information in real time, to facilitate the monitoring of the main business indicators and decision making.",
+			"line2": "The process is professional and methodological to ensure compliance within the established and budgeted deadlines. ",
+			"line3": "We also offer maintenance service, support and training in the use of BI tools, giving our clients the possibility of self-management."
+		}
+	},
+	"contact":{
+		"title": "Contact Us",
+		"txt1": "Name",
+		"txt2": "Company",
+		"txt3": "Phone number",
+		"txt4": "Email",
+		"txt5": "Message",
+		"input": "Send message"
+	}
+}

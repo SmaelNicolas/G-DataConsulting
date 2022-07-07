@@ -48,7 +48,7 @@ export const Contact = () => {
                 </div>
 
                 <div className="contact-img">
-                    <img src={contact} alt="contact" />
+                    <img src={contact} alt="contact" className="contact-imagen"/>
                 </div>
                 
             </div>

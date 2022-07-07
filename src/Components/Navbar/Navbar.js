@@ -20,8 +20,8 @@ export const NavBar = () => {
     window.addEventListener('scroll', changeNavbarColor);
 
     return(
-        <>
-            <Navbar expand="lg" fixed="top" className={colorChange ? 'navbar colorChange' : 'navbar'}>
+        <div className='navbar-config'>
+            <Navbar expand="sm" fixed="top" className={colorChange ? 'navbar colorChange' : 'navbar'}>
             <Container>
                 <Navbar.Brand href="#home">
                     <img 
@@ -43,6 +43,6 @@ export const NavBar = () => {
             </Container>
             </Navbar>
 
-        </>
+        </div>
     )
 }
