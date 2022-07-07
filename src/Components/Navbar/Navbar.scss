@@ -42,15 +42,17 @@ a{
     color: var(--white);
     text-decoration: none;
     margin: .5rem 2rem;
-    text-transform: uppercase;
+    text-transform: capitalize;
 
     &:hover{
         color: var(--orange);
+        text-decoration: underline;
     }
 }
 
 .navbar-contact{
     background-color: var(--orange);
+    border: none;
     border-radius: 2rem;
     height: 2rem;
     
@@ -72,7 +74,7 @@ a{
 }
 
 .borde{
-    width: 56%;
+    width: 50%;
     border-bottom: .1rem solid var(--orange); 
     position: absolute;
     top: 100%;
@@ -98,5 +100,14 @@ a{
     }
     a{
         padding-top: 0.5rem;
+    }
+}
+
+@media only screen and (min-width: 1400px){
+    a{
+        font-size: 1.5rem;
+    }
+    .navbar-contact{
+        height: 2.3rem;
     }
 }

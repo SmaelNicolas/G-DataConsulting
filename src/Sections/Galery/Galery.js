@@ -27,7 +27,7 @@ export const Galery = () =>{
         rewind={true}
         grabCursor={true}
         centeredSlides={true}
-        spaceBetween={200}
+        spaceBetween={150}
         slidesPerView={"auto"}
         loop={true}
         autoplay= {{
