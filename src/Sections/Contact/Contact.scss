@@ -75,9 +75,6 @@
             padding: 1rem;
         }
     }
-    .contact-vector{
-        top: 306rem;
-    }
     .contact-img{
         margin: 1rem;
         justify-content: center;
@@ -88,11 +85,5 @@
 @media only screen and (max-width: 600px){
     .contact-vector{
         top: 346rem;
-    }
-}
-
-@media only screen and (min-width: 1300px){
-    .contact-vector{
-        top: 244rem;
     }
 }

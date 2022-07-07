@@ -54,7 +54,7 @@ export const Contact = () => {
             </div>
 
             <img 
-                className="contact-vector"
+                className="contact-vector d-none d-sm-none d-md-block"
                 src={vector} 
                 alt="vector"
             />
