@@ -2,9 +2,12 @@
     display: flex;
     flex-direction: column;
     position: fixed;
-    top: 55%;
-    left: 1%;
+    top: 340px;
+    left: 8px;
     z-index: 20000;
+}
+.links-hide{
+    display: none;
 }
 
 #link-Fixed-logo{
