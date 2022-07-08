@@ -18,7 +18,7 @@ export const Contact = () => {
 
                 <div className="contact-form whiteBg">
 
-                    <Form target="_blank" action="https://formsubmit.co/aimemelissa1@gmail.com" method="POST" id="form">
+                    <Form target="_blank" action="https://formsubmit.co/gabrielgilli9@gmail.com" method="POST" id="form">
                         <div className="form-group">
                             <div className="form-row">
                                 <div className="col my-1">

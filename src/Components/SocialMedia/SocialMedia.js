@@ -5,9 +5,9 @@ export const SocialMedia = () => {
     return(
         <div className="links-Fixed">
             {/* Linkedin - Link */}
-            <button href="#" target="_blank" id='link-Fixed-logo'> <BsLinkedin/> </button>
+            <a href="https://www.linkedin.com/in/gilligm/" target="_blank" id='link-Fixed-logo'> <BsLinkedin/> </a>
             {/* Whatsapp - Link */}
-            <button href="#" target="_blank" id='link-Fixed-logo'> <BsWhatsapp/> </button>
+            <a href="https://walink.co/89fddb" target="_blank" id='link-Fixed-logo'><BsWhatsapp/></a>
         </div>
     )
 }
