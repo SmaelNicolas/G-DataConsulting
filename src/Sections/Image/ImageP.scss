@@ -13,6 +13,10 @@
     font-size: 45px;
 }
 
+.princ-contact{
+    @extend .navbar-contact;
+}
+
 @media only screen and (max-width: 700px){
     .text{
         left: 22rem;
@@ -23,10 +27,18 @@
 }
 @media only screen and (max-width: 600px){
     .text{
-        left: 14rem;
+        left: 7rem;
         right: 3rem;
-        top: 30rem; 
-        font-size: 1rem;
+        top: 25rem; 
+        font-size: 2rem;
+    }
+    .princ-contact{
+        position: absolute;
+        left: 30%;
+        right: 30%;
+        top: 35rem; 
+        height: auto;
+        font-size: 1.5rem;
     }
 }
 @media only screen and (min-width: 1400px){

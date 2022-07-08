@@ -8,7 +8,7 @@ export const ImageP = () =>{
     const { data } = useContext(LanguageContext);
 
     return(
-        <div>
+        <div id="home">
             <img
 				className='image d-none d-sm-none d-md-block'
 				src={imagen}
@@ -20,6 +20,7 @@ export const ImageP = () =>{
 				alt='imagenprincipal'
 			/>
 			<h1 className='text'>{data.image.title}</h1>
+			<button className="princ-contact d-block d-sm-block d-md-none"><a href="#contact">{data.navbar.a4}</a></button>
             
         </div>
     )

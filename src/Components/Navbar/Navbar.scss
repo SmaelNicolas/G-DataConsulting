@@ -1,3 +1,6 @@
+.container{
+    margin-right: 0;
+}
 .navbar-config{
     width: 100%;
 }
@@ -43,6 +46,7 @@ a{
     text-decoration: none;
     margin: .5rem 2rem;
     text-transform: capitalize;
+    white-space: pre;
 
     &:hover{
         color: var(--orange);
@@ -74,7 +78,7 @@ a{
 }
 
 .borde{
-    width: 50%;
+    width: 60%;
     border-bottom: .1rem solid var(--orange); 
     position: absolute;
     top: 100%;
@@ -91,15 +95,45 @@ a{
         width: 90%;
     }
     .navbar-control{
-        color: var(--white);
-        background-color: var(--orange);
+        background-color: transparent;
     }
     .navbar-nav{
-        background-color: var(--darkBlue);
+        background-color: black;
         padding: 2rem;
+        right: 0;
+        top: .1rem;
+        border-bottom-left-radius: 4rem;
     }
     a{
-        padding-top: 0.5rem;
+        padding-bottom: 1rem;
+
+    }
+    .navbar{
+        width: 100%;
+        background-color: transparent;
+        position: absolute;
+    
+        &-logo{
+            visibility: visible;
+        }
+        .navbar-control{
+            visibility: visible;
+        }
+    }
+    .borde{
+        width: 20%;
+    }
+    #navbar-contact{
+        background-color: transparent;
+        border: none;
+        
+        a{
+            color: var(--white);
+        }
+        a:hover{
+            color: var(--orange);
+            text-decoration: underline; 
+        }
     }
 }
 
@@ -111,3 +145,5 @@ a{
         height: 2.3rem;
     }
 }
+
+

@@ -1,0 +1,18 @@
+.flag{
+    width: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    border: none;
+
+    &-select{
+        background-color: transparent;
+        color: var(--orange);
+        border: none;
+
+        &:active{
+            border: 0 solid black;
+        }
+    }
+}
