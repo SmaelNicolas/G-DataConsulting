@@ -11,6 +11,11 @@
     text-align: end;
     font-family: 'roboto';
     font-size: 45px;
+
+    &::after{
+        color: var(--orange);
+        content: ".";
+    }
 }
 
 .princ-contact{
