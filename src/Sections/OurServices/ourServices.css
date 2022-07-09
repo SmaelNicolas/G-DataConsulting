@@ -38,3 +38,11 @@
 	width: 100%;
 	height: 10px;
 }
+
+@media (max-width: 600px) {
+	.ourServices--text {
+		font-size: 18px;
+		text-align: start;
+		padding-left: 25px;
+	}
+}

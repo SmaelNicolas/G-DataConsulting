@@ -26,15 +26,19 @@
 	color: var(--orange);
 }
 
-.orangeLine {
-	width: 90%;
-	height: 10px;
-	background-color: var(--orange);
-	margin-bottom: 5px;
-}
-
 @media (max-width: 656px) {
 	.cardValues {
-		margin: 10px 0px;
+		margin: 10px 5px;
+		width: 160px;
+		height: 80px;
+		padding-top: 5px;
+	}
+
+	.cardValues--text {
+		font-size: 15px;
+	}
+
+	.carValues--icon {
+		font-size: 35px;
 	}
 }

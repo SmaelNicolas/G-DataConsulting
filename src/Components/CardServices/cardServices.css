@@ -32,3 +32,21 @@
 	height: 130px;
 	margin-top: 40px;
 }
+
+@media (max-width: 600px) {
+	.cardService {
+		width: 160px;
+		height: 144px;
+	}
+
+	.cardService--title {
+		font-size: 18px;
+		margin-top: 5px;
+	}
+
+	.cardService--img {
+		width: 50px;
+		height: 105px;
+		margin-top: 50px;
+	}
+}
