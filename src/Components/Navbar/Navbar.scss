@@ -1,3 +1,8 @@
+.collapsing {
+    -webkit-transition: none;
+    transition: none;
+    display: none;
+}
 .container{
     margin-right: 0;
 }
@@ -78,10 +83,10 @@ a{
 }
 
 .borde{
-    width: 60%;
+    width: 620px;
     border-bottom: .1rem solid var(--orange); 
     position: absolute;
-    top: 100%;
+    top: 90px;
     right: 0;
 }
 
