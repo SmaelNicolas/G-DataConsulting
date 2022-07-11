@@ -3,7 +3,7 @@
 		"a1": "nosotros",
 		"a2": "nuestros trabajos",
 		"a3": "servicios",
-		"a4": "contactanos"
+		"a4": "contáctanos"
 	},
 	"image": {"title": "Convertimos datos en información de valor para tu negocio"},
 	"us": {
@@ -43,7 +43,7 @@
 		}
 	},
 	"contact":{
-		"title": "contactanos",
+		"title": "contáctanos",
 		"txt1": "Nombre",
 		"txt2": "Compañía",
 		"txt3": "Teléfono",
