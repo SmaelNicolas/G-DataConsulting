@@ -37,7 +37,7 @@ export const Contact = () => {
                         </div>
 
                         <div className="form-group">
-                            <TextField multiline id="text" label={data.contact.txt5} variant="standard" placeholder="Your Message" className="form-control py-1 px-2" name="message" rows={4} required />
+                            <TextField multiline id="text" label={data.contact.txt5} variant="standard" placeholder="Your Message" className="form-control py-1 px-2" name="Message" rows={4} required />
                         </div>
 
                         <div className="button-container">
