@@ -22,7 +22,7 @@
         display: flex;
 	    justify-content: end;
         align-items: flex-end;
-        z-index: 3333;
+        z-index: 1;
     }
     &-imagen{
         width: 80%;
@@ -65,7 +65,7 @@
         height: auto;
         display: grid;
         grid-template-columns: 100%;
-        grid-template-rows: 30% 70%;
+        grid-template-rows: 28% 72%;
         grid-template-areas: "img"
                               "form";
         margin: 0 1rem;

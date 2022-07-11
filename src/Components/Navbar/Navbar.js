@@ -39,13 +39,6 @@ export const NavBar = () => {
                         <a href="#ourServices">{data.navbar.a3}</a>
                         <button className="navbar-contact" id="navbar-contact"><a href="#contact">{data.navbar.a4}</a></button>
 
-                        {/* Para seleccionar idioma */}
-                        {/* <form className='flag'>
-                            <select size="sm" className='flag-select'>
-                                <option value="es" selected>ES</option>
-                                <option value="en">EN</option>
-                            </select>
-                        </form> */}
                     </Nav>
                 </Navbar.Collapse>
                         <div className='borde'></div>
