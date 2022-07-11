@@ -22,28 +22,36 @@
     @extend .navbar-contact;
 }
 
-@media only screen and (max-width: 800px){
+@media only screen and (max-width: 700px){
     .text{
         left: 22rem;
         right: 3rem;
         top: 9rem; 
-        font-size: 1.2rem;
+        font-size: 1.1rem;
     }
 }
 @media only screen and (max-width: 600px){
     .text{
-        left: 7rem;
-        right: 2rem;
-        top: 20rem; 
-        font-size: 1.1rem;
+        left: 2rem;
+        right: 3rem;
+        top: 22rem; 
+        font-size: 2rem;
     }
     .princ-contact{
         position: absolute;
         left: 30%;
         right: 30%;
-        top: 28rem; 
-        height: auto;
-        font-size: 1rem;
+        top: 31rem; 
+        height: 3rem;
+        font-size: 1.2rem;
+        font-weight: bold;
+        a{
+            margin: 0;
+        }
+        &:hover{
+            text-decoration: underline;
+            border: .3rem solid var(--darkBlue);
+        }
     }
 }
 @media only screen and (min-width: 1400px){

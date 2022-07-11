@@ -5,12 +5,13 @@ import work3 from '../../Assets/Imgs/work3.png';
 import "swiper/css";
 import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
+import "swiper/css/navigation";
 import "./Galery.scss";
 
 import { useContext } from "react";
 import { LanguageContext } from "../../Context/LanguageContext";
 
-import { EffectCoverflow, Pagination } from "swiper";
+import { EffectCoverflow, Pagination, Navigation } from "swiper";
 import { Title } from "../../Components/Title/Title";
 
 export const Galery = () =>{
@@ -30,10 +31,6 @@ export const Galery = () =>{
         spaceBetween={150}
         slidesPerView={"auto"}
         loop={true}
-        autoplay= {{
-          delay: 2500,
-          disableOnInteraction: false,
-        }}
         coverflowEffect={{
           rotate: 0,
           stretch: 0,
@@ -42,7 +39,8 @@ export const Galery = () =>{
           slideShadows: true,
         }}
         pagination={false}
-        modules={[EffectCoverflow, Pagination]}
+        navigation={true}
+        modules={[EffectCoverflow, Pagination, Navigation]}
         className="mySwiper"
       >
 
@@ -55,24 +53,6 @@ export const Galery = () =>{
         <SwiperSlide>
           <img src={work3} alt="img" />
         </SwiperSlide>
-        {/* <SwiperSlide>
-          <img src="https://via.placeholder.com/150" alt="img" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src="https://via.placeholder.com/150" alt="img" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src="https://via.placeholder.com/150" alt="img" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src="https://via.placeholder.com/150" alt="img" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src="https://via.placeholder.com/150" alt="img" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src="https://via.placeholder.com/150" alt="img" />
-        </SwiperSlide> */}
       </Swiper>
     </div>
   );
