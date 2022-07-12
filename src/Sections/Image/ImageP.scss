@@ -3,9 +3,9 @@
 }
 .text{
     position: absolute;
-    left: 42rem;
+    left: 38rem;
     right: 5rem;
-    top: 20rem;
+    top: 21rem;
     z-index: 999;
     color: var(--white);
     text-align: end;
@@ -21,7 +21,20 @@
 .princ-contact{
     @extend .navbar-contact;
 }
-
+@media only screen and (max-width: 1100px){
+    .text{
+        left: 22rem;
+        top: 17rem;
+        font-size: 2.5rem;
+    }
+}
+@media only screen and (max-width: 900px){
+    .text{
+        left: 19rem;
+        top: 17rem;
+        font-size: 1.9rem;
+    }
+}
 @media only screen and (max-width: 700px){
     .text{
         left: 22rem;
@@ -54,9 +67,18 @@
         }
     }
 }
+@media only screen and (max-width: 400px){
+    .text{
+        top: 21rem; 
+        font-size: 1.4em;
+    }
+    .princ-contact{
+        top: 28rem;
+    }
+}
 @media only screen and (min-width: 1400px){
     .text{
-        left: 70rem;
+        left: 55rem;
         right: 5rem;
         top: 28rem;
     }
