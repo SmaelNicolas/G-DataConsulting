@@ -129,7 +129,8 @@
 	}
 	.moreUs--content--line--img {
 		max-width: 450px;
-		padding: 8px;
+		margin: 0;
+		padding: 5px 0px;
 	}
 
 	.moreUs--content--line--text {
