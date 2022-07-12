@@ -10,7 +10,6 @@
 		var(--darkBlue) 0%,
 		var(--lighthBlue) 96.35%
 	);
-	border-radius: 20px 20px 0px 0px;
 }
 
 .cardValues--text {
@@ -24,6 +23,14 @@
 .carValues--icon {
 	font-size: 55px;
 	color: var(--orange);
+}
+
+.first {
+	border-radius: 20px 0px 0px 0px;
+}
+
+.last {
+	border-radius: 0px 0px 20px 0px;
 }
 
 @media (max-width: 656px) {

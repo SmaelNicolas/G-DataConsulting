@@ -17,23 +17,23 @@ export const MoreUs = () => {
 			<div className='moreUs--content'>
 				<div className='moreUs--content--line'>
 					<img
-						className='moreUs--content--line--img'
+						className='moreUs--content--line--img firstBr'
 						src={Img1}
 						alt='powerbi'
 					/>
-					<div className='moreUs--content--line--text'>
+					<div className='moreUs--content--line--text secondBr'>
 						{data.moreUs.content1}
 					</div>
 				</div>
 				<div className='moreUs--content--line reverseWrap'>
-					<div className='moreUs--content--line--text'>
+					<div className='moreUs--content--line--text thirdBr'>
 						{data.moreUs.content2}
 						<div className='moreUs--content--line--text--divider'></div>
 						{data.moreUs.content3}
 					</div>
 
 					<img
-						className='moreUs--content--line--img'
+						className='moreUs--content--line--img fourthBr'
 						src={Img2}
 						alt='analytics'
 					/>

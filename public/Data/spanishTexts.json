@@ -5,7 +5,9 @@
 		"a3": "servicios",
 		"a4": "contáctanos"
 	},
-	"image": {"title": "Convertimos datos en información de valor para tu negocio"},
+	"image": {
+		"title": "Convertimos datos en información de valor para tu negocio"
+	},
 	"us": {
 		"title": "¿quiénes somos?",
 		"content": "Somos un equipo apasionado por los datos, y ofrecemos un servicio profesional de desarrollo de BI para empresas. Nuestro objetivo es mostrar a las empresas información de valor a cualquier nivel para dar visibilidad, seguimiento y apoyo en la toma de decisiones."
@@ -42,7 +44,7 @@
 			"line3": "Además, ofrecemos servicio de mantenimiento, soporte y capacitación de uso de herramientas de BI, dando la posibilidad de auto gestión a nuestros clientes."
 		}
 	},
-	"contact":{
+	"contact": {
 		"title": "contáctanos",
 		"txt1": "Nombre",
 		"txt2": "Compañía",

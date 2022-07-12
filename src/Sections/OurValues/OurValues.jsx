@@ -17,6 +17,7 @@ export const OurValues = () => {
 			<Title text={data.values.title} />
 			<div className='ourValues--card--container'>
 				<CardValues
+					first={true}
 					iconValue={<MdCenterFocusWeak />}
 					text={data.values.cards[0]}
 				/>
@@ -37,6 +38,7 @@ export const OurValues = () => {
 					text={data.values.cards[4]}
 				/>
 				<CardValues
+					last={true}
 					iconValue={<IoIosPeople />}
 					text={data.values.cards[5]}
 				/>
