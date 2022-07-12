@@ -46,7 +46,7 @@
 }
 
 .moreUs--content--line--img {
-	min-width: 320px;
+	min-width: 310px;
 	max-height: 328px;
 	margin: 0 10px;
 }
@@ -128,7 +128,6 @@
 		padding: 5px;
 	}
 	.moreUs--content--line--img {
-		max-width: 450px;
 		margin: 0;
 		padding: 5px 0px;
 	}
@@ -138,5 +137,12 @@
 		font-size: 15px;
 		font-weight: 500;
 		padding: 20px 25px 0px 25px;
+	}
+
+	.thirdBr {
+		border-radius: 0px 0px 20px 0px;
+	}
+	.fourthBr {
+		border-radius: 20px 0px 0px 0px;
 	}
 }
