@@ -1,63 +1,113 @@
-import { TextField } from "@mui/material"
-import { Button, Form } from "react-bootstrap"
-import { Title } from "../../Components/Title/Title"
-import contact from "../../Assets/Imgs/contact.png"
-import vector from "../../Assets/Imgs/Vector.png"
-import { useContext } from 'react';
-import { LanguageContext } from "../../Context/LanguageContext";
+import { TextField } from "@mui/material";
+import { Button, Form } from "react-bootstrap";
+import { Title } from "../../Components/Title/Title";
+import contact from "../../Assets/Imgs/contact.png";
+import vector from "../../Assets/Imgs/Vector.png";
 
 export const Contact = () => {
+	return (
+		<div id='contact' className='darkBlue py-5'>
+			<Title text='contáctanos' />
 
-    const { data } = useContext(LanguageContext);
+			<div className='contact'>
+				<div className='contact-form whiteBg'>
+					<Form
+						target='_blank'
+						action='https://formsubmit.co/gabrielgilli9@gmail.com'
+						method='POST'
+						id='form'
+					>
+						<div className='form-group'>
+							<div className='form-row'>
+								<div className='col my-1'>
+									<TextField
+										id='name'
+										label='Nombre'
+										variant='standard'
+										type='text'
+										name='Name'
+										className='form-control py-1 px-2'
+										placeholder='Full Name'
+										required
+									/>
+								</div>
+								<div className='col my-1'>
+									<TextField
+										id='company'
+										label='Compañía'
+										variant='standard'
+										type='text'
+										name='Company'
+										className='form-control py-1 px-2'
+										placeholder='Company'
+									/>
+								</div>
+								<div className='col my-1'>
+									<TextField
+										id='pone'
+										label='Teléfono'
+										variant='standard'
+										type='number'
+										name='Phone'
+										className='form-control py-1 px-2'
+										placeholder='Phone Number'
+										required
+									/>
+								</div>
+								<div className='col my-1'>
+									<TextField
+										id='email'
+										label='Email'
+										variant='standard'
+										type='email'
+										name='Email'
+										className='form-control py-1 px-2'
+										placeholder='Email Address'
+										required
+									/>
+								</div>
+							</div>
+						</div>
 
-    return(
-        <div id="contact" className="darkBlue py-5">
-            <Title text={data.contact.title} />
+						<div className='form-group'>
+							<TextField
+								multiline
+								id='text'
+								label='Mensaje'
+								variant='standard'
+								placeholder='Your Message'
+								className='form-control py-1 px-2'
+								name='Message'
+								rows={4}
+								required
+							/>
+						</div>
 
-            <div className="contact">
+						<div className='button-container'>
+							<Button
+								type='submit'
+								className='my-1 contact-button'
+							>
+								Enviar mensaje
+							</Button>
+						</div>
+					</Form>
+				</div>
 
-                <div className="contact-form whiteBg">
+				<div className='contact-img'>
+					<img
+						src={contact}
+						alt='contact'
+						className='contact-imagen'
+					/>
+				</div>
+			</div>
 
-                    <Form target="_blank" action="https://formsubmit.co/gabrielgilli9@gmail.com" method="POST" id="form">
-                        <div className="form-group">
-                            <div className="form-row">
-                                <div className="col my-1">
-                                    <TextField id="name" label={data.contact.txt1} variant="standard" type="text" name="Name" className="form-control py-1 px-2" placeholder="Full Name" required/>
-                                </div>
-                                <div className="col my-1">
-                                    <TextField id="company" label={data.contact.txt2} variant="standard"  type="text" name="Company" className="form-control py-1 px-2" placeholder="Company"/>
-                                </div>
-                                <div className="col my-1">
-                                    <TextField id="pone" label={data.contact.txt3} variant="standard"  type="number" name="Phone" className="form-control py-1 px-2" placeholder="Phone Number" required/>
-                                </div>
-                                <div className="col my-1">
-                                    <TextField id="email" label={data.contact.txt4} variant="standard"  type="email" name="Email" className="form-control py-1 px-2" placeholder="Email Address" required/>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className="form-group">
-                            <TextField multiline id="text" label={data.contact.txt5} variant="standard" placeholder="Your Message" className="form-control py-1 px-2" name="Message" rows={4} required />
-                        </div>
-
-                        <div className="button-container">
-                            <Button type="submit" className="my-1 contact-button">{data.contact.input}</Button>
-                        </div>
-                    </Form>
-
-                </div>
-
-                <div className="contact-img">
-                    <img src={contact} alt="contact" className="contact-imagen"/>
-                </div>
-                
-            </div>
-
-            <img 
-                className="contact-vector d-none d-sm-none d-md-block"
-                src={vector} 
-                alt="vector"
-            />
-        </div>
-    )
-}
+			<img
+				className='contact-vector d-none d-sm-none d-md-block'
+				src={vector}
+				alt='vector'
+			/>
+		</div>
+	);
+};

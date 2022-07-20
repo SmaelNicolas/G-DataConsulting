@@ -1,17 +1,17 @@
-import React, { useContext } from "react";
+import React from "react";
 import "./moreUs.css";
 import Img1 from "../../Assets/Imgs/business.svg";
 import Img2 from "../../Assets/Imgs/Analysis.svg";
 import Rocket from "../../Assets/Gifs/rocket.gif";
-import { LanguageContext } from "../../Context/LanguageContext";
 
 export const MoreUs = () => {
-	const { data } = useContext(LanguageContext);
-
 	return (
 		<div className='sectionContainer'>
 			<div className='moreUs--bigTitle--container'>
-				<p className='moreUs--bigTitle--Text'>{data.moreUs.title}</p>
+				<p className='moreUs--bigTitle--Text'>
+					Libera todo el potencial de tus datos, empuja tu empresa al
+					siguiente nivel
+				</p>
 				<img className='moreUs--bigTitle--rocket' src={Rocket} alt='' />
 			</div>
 			<div className='moreUs--content'>
@@ -22,14 +22,15 @@ export const MoreUs = () => {
 						alt='powerbi'
 					/>
 					<div className='moreUs--content--line--text secondBr'>
-						{data.moreUs.content1}
+						¿Te animás a convertir los datos en oportunidades?
 					</div>
 				</div>
 				<div className='moreUs--content--line reverseWrap'>
 					<div className='moreUs--content--line--text thirdBr'>
-						{data.moreUs.content2}
+						Detectando oportunidades en tu negocio podes crear un
+						ventaja competitiva
 						<div className='moreUs--content--line--text--divider'></div>
-						{data.moreUs.content3}
+						Tomá las decisiones correctas, en el momento preciso.
 					</div>
 
 					<img

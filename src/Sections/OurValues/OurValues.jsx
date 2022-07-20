@@ -1,8 +1,7 @@
-import React, { useContext } from "react";
+import React from "react";
 import "./ourValues.css";
 import { CardValues } from "../../Components/CardValues/CardValues";
 import { Title } from "../../Components/Title/Title";
-import { LanguageContext } from "../../Context/LanguageContext";
 import { MdCenterFocusWeak } from "react-icons/md";
 import { FaHandsHelping } from "react-icons/fa";
 import { GiExtraTime } from "react-icons/gi";
@@ -11,36 +10,29 @@ import { AiOutlineFileProtect } from "react-icons/ai";
 import { IoIosPeople } from "react-icons/io";
 
 export const OurValues = () => {
-	const { data } = useContext(LanguageContext);
 	return (
 		<div className='sectionContainer' id='ourValues'>
-			<Title text={data.values.title} />
+			<Title text='nuestros valores' />
 			<div className='ourValues--card--container'>
 				<CardValues
 					first={true}
 					iconValue={<MdCenterFocusWeak />}
-					text={data.values.cards[0]}
+					text='Foco en el cliente'
 				/>
-				<CardValues
-					iconValue={<FaHandsHelping />}
-					text={data.values.cards[1]}
-				/>
+				<CardValues iconValue={<FaHandsHelping />} text='Compromiso' />
 				<CardValues
 					iconValue={<GiExtraTime />}
-					text={data.values.cards[2]}
+					text='Responsabilidad'
 				/>
-				<CardValues
-					iconValue={<FaPeopleCarry />}
-					text={data.values.cards[3]}
-				/>
+				<CardValues iconValue={<FaPeopleCarry />} text='Empatía' />
 				<CardValues
 					iconValue={<AiOutlineFileProtect />}
-					text={data.values.cards[4]}
+					text='Profesionalismo'
 				/>
 				<CardValues
 					last={true}
 					iconValue={<IoIosPeople />}
-					text={data.values.cards[5]}
+					text='Trabajo en equipo'
 				/>
 			</div>
 		</div>

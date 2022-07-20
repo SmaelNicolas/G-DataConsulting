@@ -38,6 +38,8 @@
 	min-height: 100vh;
 	background-image: url("./Assets/Imgs/bg.png");
 	background-repeat: repeat;
+	opacity: 0;
+	animation: aparecer 1s forwards;
 }
 
 .sectionContainer {
@@ -48,4 +50,10 @@
 	justify-content: flex-start;
 	align-items: center;
 	padding: 50px 0px;
+}
+
+@keyframes aparecer {
+	100% {
+		opacity: 1;
+	}
 }

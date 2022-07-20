@@ -1,18 +1,19 @@
-import React, { useContext } from "react";
+import React from "react";
 import { Title } from "../../Components/Title/Title";
-import { LanguageContext } from "../../Context/LanguageContext";
 
 import "./aboutUs.css";
 
 export const AboutUs = () => {
-	const { data } = useContext(LanguageContext);
-
 	return (
 		<div className='sectionContainer' id='aboutUs'>
-			<Title text={data.us.title} />
+			<Title text='¿quiénes somos?' />
 			<div className='aboutUs--textContainer'>
 				<div className='aboutUs--textContainer--text'>
-					{data.us.content}
+					Somos un equipo apasionado por los datos, y ofrecemos un
+					servicio profesional de desarrollo de BI para empresas.
+					Nuestro objetivo es mostrar a las empresas información de
+					valor a cualquier nivel para dar visibilidad, seguimiento y
+					apoyo en la toma de decisiones.
 				</div>
 			</div>
 		</div>

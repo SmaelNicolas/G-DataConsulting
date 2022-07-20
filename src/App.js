@@ -9,14 +9,23 @@ import { OurServices } from "./Sections/OurServices/OurServices";
 import { Galery } from "./Sections/Galery/Galery";
 import { Footer } from "./Sections/Footer/Footer";
 import { MoreUs } from "./Sections/MoreUs/MoreUs";
-import { useContext } from "react";
+import { useEffect, useState } from "react";
 import { Loading } from "./Components/Loading/Loading";
 import { ImageP } from "./Sections/Image/ImageP";
-import { LanguageContext } from "./Context/LanguageContext";
 import { SocialMedia } from "./Components/SocialMedia/SocialMedia";
 
 function App() {
-	const { loading } = useContext(LanguageContext);
+	const [loading, setLoading] = useState(true);
+
+	useEffect(() => {
+		const timeoutID = setTimeout(() => {
+			setLoading(false);
+		}, 1300);
+
+		return () => {
+			clearTimeout(timeoutID);
+		};
+	}, []);
 
 	return loading ? (
 		<Loading />
