@@ -1,85 +1,99 @@
-.image{
-    width: 100%;
+.image {
+	width: 100%;
 }
-.text{
-    position: absolute;
-    left: 38rem;
-    right: 5rem;
-    top: 21rem;
-    z-index: 999;
-    color: var(--white);
-    text-align: end;
-    font-family: 'roboto';
-    font-size: 45px;
+.text {
+	position: absolute;
+	left: 38rem;
+	right: 5rem;
+	top: 21rem;
+	z-index: 999;
+	color: var(--white);
+	text-align: end;
+	font-family: "roboto";
+	font-size: 45px;
 
-    &::after{
-        color: var(--orange);
-        content: ".";
-    }
+	&::after {
+		color: var(--orange);
+		content: ".";
+	}
 }
 
-.princ-contact{
-    @extend .navbar-contact;
+.princ-contact {
+	@extend .navbar-contact;
 }
-@media only screen and (max-width: 1100px){
-    .text{
-        left: 22rem;
-        top: 17rem;
-        font-size: 2.5rem;
-    }
+
+.newLogo {
+	display: flex;
+	position: absolute;
+	width: 250px;
+	left: 10px;
 }
-@media only screen and (max-width: 900px){
-    .text{
-        left: 19rem;
-        top: 17rem;
-        font-size: 1.9rem;
-    }
+
+@media only screen and (max-width: 1100px) {
+	.text {
+		left: 22rem;
+		top: 17rem;
+		font-size: 2.5rem;
+	}
 }
-@media only screen and (max-width: 700px){
-    .text{
-        left: 22rem;
-        right: 3rem;
-        top: 9rem; 
-        font-size: 1.1rem;
-    }
+@media only screen and (max-width: 900px) {
+	.text {
+		left: 19rem;
+		top: 17rem;
+		font-size: 1.9rem;
+	}
 }
-@media only screen and (max-width: 600px){
-    .text{
-        left: 2rem;
-        right: 3rem;
-        top: 22rem; 
-        font-size: 1.9em;
-    }
-    .princ-contact{
-        position: absolute;
-        left: 30%;
-        right: 30%;
-        top: 31rem; 
-        height: 3rem;
-        font-size: 1.2rem;
-        font-weight: bold;
-        a{
-            margin: 0;
-        }
-        &:hover{
-            text-decoration: underline;
-            border: .3rem solid var(--darkBlue);
-        }
-    }
+
+@media only screen and (max-width: 800px) {
+	.newLogo {
+		display: none;
+	}
 }
-@media only screen and (max-width: 400px){
-    .text{
-        top: 21rem; 
-        font-size: 1.4em;
-    }
-    .princ-contact{
-        top: 28rem;
-    }
+@media only screen and (max-width: 700px) {
+	.text {
+		left: 22rem;
+		right: 3rem;
+		top: 9rem;
+		font-size: 1.1rem;
+	}
 }
-@media only screen and (min-width: 1400px){
-    .text{
-        left: 55rem;
-        right: 5rem;
-        top: 28rem;
-    }
+@media only screen and (max-width: 600px) {
+	.text {
+		left: 2rem;
+		right: 3rem;
+		top: 22rem;
+		font-size: 1.9em;
+	}
+	.princ-contact {
+		position: absolute;
+		left: 30%;
+		right: 30%;
+		top: 31rem;
+		height: 3rem;
+		font-size: 1.2rem;
+		font-weight: bold;
+		a {
+			margin: 0;
+		}
+		&:hover {
+			text-decoration: underline;
+			border: 0.3rem solid var(--darkBlue);
+		}
+	}
+}
+@media only screen and (max-width: 400px) {
+	.text {
+		top: 21rem;
+		font-size: 1.4em;
+	}
+	.princ-contact {
+		top: 28rem;
+	}
+}
+@media only screen and (min-width: 1400px) {
+	.text {
+		left: 55rem;
+		right: 5rem;
+		top: 28rem;
+	}
 }
