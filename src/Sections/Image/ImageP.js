@@ -1,11 +1,11 @@
 import imagen from "../../Assets/Imgs/imagenprincipal.svg";
 import imagenMobile from "../../Assets/Imgs/imagenprinc2.png";
-import logo from "../../Assets/Imgs/logotsp.png";
+import Logo from "../../Assets/Imgs/logotsp.png";
 
 export const ImageP = () => {
 	return (
 		<div id='home'>
-			<img className='newLogo' src={logo} alt='g data consulting' />
+			<img className='newLogo' src={Logo} alt='g data consulting' />
 			<img
 				className='image d-none d-sm-none d-md-block'
 				src={imagen}
